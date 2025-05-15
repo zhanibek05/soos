@@ -372,3 +372,78 @@ sudo systemctl enable --now postgresql
 # Create user and database non-interactively
 sudo -u postgres psql -c "CREATE USER lenny WITH PASSWORD 'leonard';"
 sudo -u postgres psql -c "CREATE DATABASE my_project OWNER lenny;"
+
+
+
+
+
+
+
+#sudoers
+
+```bash
+# This allows user johndoe to restart nginx without a password.
+johndoe ALL=(ALL) NOPASSWD: /bin/systemctl restart nginx
+```
+
+
+
+
+#Check services
+
+Check system services
+```bash
+#!/bin/bash
+
+echo "--- Checking System Services ---"
+
+SERVICES=("nginx" "docker" "postgresql")
+
+for svc in "${SERVICES[@]}"; do
+    echo "Service: $svc"
+    echo "  Enabled: $(systemctl is-enabled "$svc" 2>/dev/null)"
+    echo "  Active : $(systemctl is-active "$svc" 2>/dev/null)"
+done
+
+echo
+
+
+```
+
+
+check docker
+```bash
+#!/bin/bash
+
+echo "--- Checking Docker Containers ---"
+
+if ! command -v docker &> /dev/null; then
+    echo "Docker is not installed."
+    exit
+fi
+
+docker ps --format "Running container: {{.Names}} ({{.Image}})" || echo "Docker daemon might not be running."
+
+echo
+
+```
+
+
+check ports
+
+```bash
+#!/bin/bash
+
+echo "--- Open Ports ---"
+
+ss -tulnp | grep LISTEN || echo "No open ports detected."
+
+echo
+
+```
+
+
+
+check
+
+

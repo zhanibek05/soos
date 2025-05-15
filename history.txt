@@ -1,0 +1,999 @@
+   11  ls
+   12  sudo ls backendservervb13  sudo cat backendservervbox/bekzhan.log
+   14  ls
+   15  sudo tail auth.log 
+   16  clear
+   17  ls
+   18  sudo cat backendservervbox/
+   19  sudo ls backendservervbox/
+   20  sudo tail backendservervbox/audit.log
+   21  sudo tail backendservervbox/systemd.log
+   22  sudo tail backendservervbox/system-logind.log
+   23  sudo tail backendservervbox/systemd-logind.log
+   24  sudo tail backendservervbox/audit.log
+   25  clear
+   26  ip a
+   27  clear
+   28  ls
+   29  clear
+   30  ls
+   31  clear
+   32  dnf install redis
+   33  sudo dnf install redis
+   34  clear
+   35  redis-cli
+   36  ls
+   37  clear
+   38  redis-cli set mykey "zhanibek"
+   39  redis-cli
+   40  history
+   41  clear
+   42  vim installAndTest.sh
+   43  sudo systemctl status redis
+   44  redis-cli get mykey
+   45  clear
+   46  ls
+   47  vim installAndTest
+   48  vim installAndTest.sh
+   49  installAndTest.sh
+   50  sudo installAndTest.sh
+   51  ls
+   52  sudo chmod +x installAndTest.sh 
+   53  installAndTest.sh 
+   54  clear
+   55  redis-cli config
+   56  redis-cli config --help
+   57  redis-cli config -help
+   58  redis-cli config help
+   59  redis-cli config set save
+   60  redis-cli config set save "10 1"
+   61  cd var/lib/valkey
+   62  cd var
+   63  cd /var/lib/valkey
+   64  sudo ls /var/lib/valkey
+   65  sudo cat /var/lib/valkey/dump.rdb
+   66  sudo useradd backup
+   67  clear
+   68  users
+   69  id
+   70  sudo groupadd -f backup
+   71  sudo useradd -g backup backup
+   72  clear
+   73  sudo ls /var/lib/valkey
+   74  sudo cat /var/lib/valkey/dump.rdb
+   75  clear
+   76  ls
+   77  cat installAndTest.sh 
+   78  vim installAndTest.sh 
+   79  vim backupPrepare.sh
+   80  ls
+   81  ls -l
+   82  chmod +x backupPrepare.sh 
+   83  backupPrepare.sh 
+   84  vim backupPrepare.sh 
+   85  backupPrepare.sh 
+   86  vim backupPrepare.sh 
+   87  backupPrepare.sh 
+   88  -f /var/lib/valkey
+   89  if [-f var/lib/valkey]; then echo "Yes"; else echo "No"; fi
+   90  if [ -f var/lib/valkey]; then echo "Yes"; else echo "No"; fi
+   91  if [ -f var/lib/valkey ]; then echo "Yes"; else echo "No"; fi
+   92  ls var/lib/valkey
+   93  if [ -f /var/lib/valkey ]; then echo "Yes"; else echo "No"; fi
+   94  ls /var/lib/valkey
+   95  clear
+   96  vim backupPrepare.sh 
+   97  backupPrepare.sh 
+   98  sudo ls -l /var/lib/valkey
+   99  users
+  100  groups
+  101  etc/groups
+  102  sudo catetc/groups
+  103  sudo cat etc/groups
+  104  clear
+  105  sudo chown -R :backup /var/lib/valkey
+  106  sudo chmod -R g+rX
+  107  sudo chmod -R g+rX /var/lib/valkey
+  108  ls -l /var/lib/valkey
+  109  sudo ls -l /var/lib/valkey
+  110  sudo chmod -R g+x /var/lib/valkey
+  111  sudo ls -l /var/lib/valkey
+  112  clear
+  113  ls
+  114  vim backupPrepare.sh 
+  115  backupPrepare.sh 
+  116  vim backupPrepare.sh 
+  117  backupPrepare.sh 
+  118  clear
+  119  ls
+  120  mkdir soos
+  121  cd soos/
+  122  ls
+  123  clear
+  124  mkdir ticket1
+  125  cd ticket1/
+  126  clear
+  127  ls
+  128  cd ..
+  129  ls
+  130  cp insatllAndTest.sh /soos/ticket1
+  131  cp installAndTest.sh /soos/ticket1
+  132  cp installAndTest.sh soos/ticket1
+  133  ls
+  134  cp backupPrepare.sh soos/ticket1/
+  135  cd soos/ticket1
+  136  ls
+  137  vim valkeyBackup.sh
+  138  l
+  139  ls
+  140  clear
+  141  tar
+  142  tar --help
+  143  clear
+  144  la
+  145  ls
+  146  vim valkeyBackup.sh 
+  147  ls
+  148  sudo chmod +x valkeyBackup.sh 
+  149  valclear
+  150  clear
+  151  ls
+  152  valkeyBackup.sh 
+  153  vim valkeyBackup.sh 
+  154  valkeyBackup.sh 
+  155  vim valkeyBackup.sh 
+  156  valkeyBackup.sh 
+  157  ls
+  158  cd /backup
+  159  pwd
+  160  ls
+  161  clear
+  162  ls
+  163  cd ..
+  164  ls
+  165  cd backup/
+  166  clear
+  167  ls
+  168  cd /home/zhanibek
+  169  ls
+  170  cd soos
+  171  ls
+  172  cd ticket1/
+  173  ls
+  174  vim valkeyBackup.sh 
+  175  valkeyBackup.sh
+  176  ls
+  177  cd backup/
+  178  ls
+  179  clear
+  180  ls -l
+  181  clear
+  182  ls
+  183  tar 
+  184  tar --hlp
+  185  tar --help
+  186  tar tvf redis-backup-2025-05-10-1650.tar 
+  187  clear
+  188  redis-cli config set testKey "test"
+  189  redis-cli config help
+  190  redis-cli get mykey
+  191  redis-cli set mykey "zhanibekbest"
+  192  ls
+  193  sudo ls /var/lib/valkey/
+  194  sudo cat /var/lib/valkey/dump.rdb
+  195  clear
+  196  ls
+  197  cd ..
+  198  ls
+  199  cron
+  200  crontab
+  201  cronjob
+  202  crontab
+  203  clear
+  204  crontab
+  205  man crontab 
+  206  crontab -l
+  207  clear
+  208  crontab --help
+  209  sudo crontab -u --help
+  210  clear
+  211  ls
+  212  sudo chown valkey 
+  213  sudo chown backup_user:backup valkeyBackup.sh 
+  214  sudo chmod ug+x valkeyBackup.sh 
+  215  ls -l
+  216  clear
+  217  ls
+  218  crontab -u backup_user -e
+  219  sudo crontab -u backup_user -e
+  220  crontab -e
+  221  sudo su
+  222  ls
+  223  crontab -u backup_user -e
+  224  sudo crontab -u backup_user -e
+  225  crontab -l
+  226  sudo crontab -u backup_user -l
+  227  ls
+  228  ls backup
+  229  clear
+  230  ls
+  231  crontab -l
+  232  sudo crontab -u backup_user -l >> my_crontab
+  233  ls
+  234  cat my_crontab 
+  235  vim my_crontab 
+  236  ls
+  237  clear
+  238  nftables
+  239  nft
+  240  man nft
+  241  nft --help
+  242  cd etc
+  243  clear
+  244  ls /etc/
+  245  ls /etc/crontab
+  246  ls /etc/nftables/
+  247  sudo ls /etc/nftables/
+  248  sudo cat /etc/nftables/main.nft
+  249  nft list
+  250  nft --help
+  251  clear
+  252  sudo nft list ruleset
+  253  clear
+  254  ls
+  255  clear
+  256  top
+  257  clear
+  258  ls
+  259  nft list ruleset
+  260  sudo nft list ruleset
+  261  clear
+  262  nft -i
+  263  clear
+  264  man nft
+  265  cat /etc/nftables.conf
+  266  ls /etc
+  267  clear
+  268  ls /etc/nftables
+  269  sudo ls /etc/nftables
+  270  sudo su
+  271  ping localhost:2222
+  272  ping localhost
+  273  cd /opt/scripts/
+  274  ls
+  275  systemd
+  276  clear
+  277  cd etc
+  278  cd /etc
+  279  ls
+  280  ls | grep systemd
+  281  cd systemd
+  282  ls
+  283  cat resolved.conf 
+  284  ls
+  285  cd system
+  286  ls
+  287  clear
+  288  ls
+  289  cat zhanibekservice.service 
+  290  systemctl status zhanibekservice
+  291  clear
+  292  ls
+  293  cd ..
+  294  ls
+  295  cd user
+  296  ls
+  297  cd ..
+  298  cd network/
+  299  ls
+  300  clear
+  301  cd ..
+  302  ls
+  303  cd system
+  304  ls
+  305  vim zhanibekservice.service 
+  306  cat zhanibekservice.service 
+  307  man systemd.unit
+  308  ls
+  309  vim deleteIntelKvm.service
+  310  ls
+  311  sudo vim deleteIntelKvm.service
+  312  clear
+  313  cd /etc
+  314  ls
+  315  cd /opt
+  316  ls
+  317  mkdir scripts
+  318  sudo mkdir scripts
+  319  cd scripts/
+  320  ls
+  321  sudo vim deleteIntelKvm.sh
+  322  ls -l
+  323  chmod +x deleteIntelKvm.sh 
+  324  sudo chmod +x deleteIntelKvm.sh 
+  325  ls -l
+  326  clear
+  327  ls
+  328  deleteIntelKvm.sh 
+  329  modrpbe
+  330  modprobe
+  331  modprobe -h
+  332  modprobe -a
+  333  modprobe -all
+  334  lsmod
+  335  lsmod | grep "kvm"
+  336  lsmod | grep "intel"
+  337  clear
+  338  modinfo kvm_intel
+  339  clear
+  340  cd /etc/systemd
+  341  ls
+  342  sudo su
+  343  ip a
+  344  cd /home
+  345  cd zhanibek
+  346  ls
+  347  clear
+  348  ssh zhanibek@10.101.61.8
+  349  clear
+  350  lsmod | grep kvm
+  351  sudo modprobe kvm_intel
+  352  clear
+  353  sudo modprobe kvm_intel
+  354  lsmod | grep kvm
+  355  clear
+  356  ip a
+  357  ping 192.168.124.159
+  358  ssh zhanibek@192.168.124.159
+  359  nmap 92.168.124.159
+  360  nmap 192.168.124.159
+  361  ping 192.168.124.159
+  362  telnet 192.168.124.159
+  363  curl 192.168.124.159
+  364  clear
+  365  telnet 192.168.124.159
+  366  nmap 192.168.124.159
+  367  curl cheat.sh/nft
+  368  nmap 192.168.124.159
+  369  ping 192.168.124.159
+  370  clear
+  371  ip a
+  372  clear
+  373  nft list ruleset
+  374  sudo su
+  375  exit
+  376  ping localhost
+  377  nmap localhost
+  378  curl cheat.sh/nft
+  379  clear
+  380  curl cheat.sh/dnf install
+  381  curl cheat.sh/install
+  382  curl cheat.sh/"dnf install"
+  383  man install
+  384  man dnf
+  385  man dnf install
+  386  dnf install -help
+  387  dnf install --help
+  388  clear
+  389  nginx
+  390  sudo su
+  391  exit
+  392  curl localhost:8080
+  393  ls
+  394  clear
+  395  ls
+  396  go mod init
+  397  go mod init github.com/zhanibek05/go-app
+  398  ls
+  399  clear
+  400  ls
+  401  cat go.mod
+  402  clear
+  403  go mod tidy
+  404  ls
+  405  go build -o server
+  406  ls
+  407  cd server
+  408  clear
+  409  server 
+  410  curl localhost:8080
+  411  clear
+  412  exit
+  413  ls
+  414  clear
+  415  ls
+  416  cd opt
+  417  ls
+  418  clear
+  419  ls
+  420  cd soos
+  421  ls
+  422  clear
+  423  mkdir go-app
+  424  clear
+  425  cd go-app/
+  426  go init
+  427  clear
+  428  vim main.go
+  429  ls
+  430  go run main.go 
+  431  vim main.go 
+  432  go run main.go 
+  433  clear
+  434  vim main.go 
+  435  go run main.go 
+  436  vim main.go 
+  437  go run main.go 
+  438  clear
+  439  vim Dockerfile
+  440  ls
+  441  clear
+  442  docker build -t go-app
+  443  docker build -t go-app .
+  444  vim Dockerfile
+  445  docker build -t go-app .
+  446  clear
+  447  docker push
+  448  docker images
+  449  clear
+  450  ls
+  451  clear
+  452  docker ps
+  453  clear
+  454  docker push
+  455  docker push --help
+  456   curl cheat.sh/docker
+  457  clear
+  458  docker push --help
+  459  docker push -q web-app:latest
+  460  docker push -q web-app
+  461  docker images
+  462  docker push -q go-app:latest
+  463  docker pull
+  464  docker login
+  465  docker push -q go-app:latest
+  466  docker --help
+  467  clear
+  468  docker tag --help
+  469  docker tag go-app zhanibek05/go-app:latest
+  470  docker push go-app:latest
+  471  docker push zhanibek05/go-app:latest
+  472  docker logout
+  473  clear
+  474  docker login
+  475  clear
+  476  docker push zhanibek05/go-app:latest
+  477  clear
+  478  ls
+  479  docker images
+  480  docker run go-app
+  481  docker run go-app -d
+  482  docker run -d go-app 
+  483  curl localhost:8080
+  484  clear
+  485  ls
+  486  docker ps
+  487  docker stop
+  488  docker stop carming_nighingale
+  489  docker stop charming_nightingale
+  490  docker stop carming_nighingale
+  491  docker stop charming_nightingale
+  492  clear
+  493  docker run --help
+  494  docker run --help | grep "port"
+  495  curl cheat.sh/docker run
+  496  clear
+  497  docker run -d -p 8080:8080 --name go-app go-a
+  498  docker run -d -p 8080:8080 --name go-app go-app
+  499  clear
+  500  docker ps
+  501  docker exec go-app
+  502  docker exec --help
+  503  clear
+  504  curl cheat.sh/docker run
+  505  clear
+  506  docker exec -help
+  507  docker exec -i go-app bash
+  508  docker exec -ti go-app bash
+  509  docker ps
+  510  curl cheat.sh/docker 
+  511  curl cheat.sh/docker | grep "exec"
+  512  docker exec -it go-app sh
+  513  ls
+  514  docker ps
+  515  clear
+  516  ls
+  517  vim test myApp.sh
+  518  ls
+  519  cd test
+  520  cat test
+  521  ls
+  522  clear
+  523  rm -r test
+  524  clear
+  525  ls
+  526  docker ps
+  527  docker images
+  528  ls
+  529  vim testServer.sh
+  530  ls
+  531  chmod +x testServer.sh 
+  532  testServer.sh 
+  533  vim testServer.sh 
+  534  testServer.sh 
+  535  clear
+  536  vim testServer.sh 
+  537  testServer.sh 
+  538  cat server 
+  539  clear
+  540  cat testServer.sh 
+  541  vim testServer.sh 
+  542  testServer.sh 
+  543  vim testServer.sh 
+  544  testServer.sh 
+  545  vim testServer.sh 
+  546  testServer.sh 
+  547  vim testServer.sh 
+  548  ls
+  549  vim main.go
+  550  go run main.go 
+  551  clear
+  552  ls
+  553  docker stop go-app
+  554  docker ps
+  555  docker ps pa
+  556  docker ps -a
+  557  clear
+  558  ls
+  559  docker run 
+  560  ls
+  561  clear
+  562  ls
+  563  docker build
+  564  docker build .
+  565  clear
+  566  ls
+  567  docker push zhanibek05/go-app:latest
+  568  clear
+  569  ls
+  570  docker images
+  571  docker build --help
+  572  clear
+  573  docker build -t go-app .
+  574  docker images
+  575  docker build -t zhanibek/go-app .
+  576  docker build -t zhanibek05/go-app .
+  577  clear
+  578  ls
+  579  docker images
+  580  clear
+  581  docker run -d -p 8080:8080 --name go-app go-app
+  582  docker prune -a
+  583  clear
+  584  docker rm go-app
+  585  clear
+  586  docker run -d -p 8080:8080 --name go-app go-app
+  587  docker ps
+  588  docker push
+  589  docker push zhanibek05/go-app:latest
+  590  clear
+  591  ls
+  592  docker ps
+  593  testServer.sh 
+  594  clear
+  595  ls
+  596  clear
+  597  journalctl --help
+  598  man journalctl 
+  599  ls
+  600  clear
+  601  ls
+  602  telnet localhost 8080
+  603  nmap localhost
+  604  nmap -p 8080 localhost
+  605  clear
+  606  nc help
+  607  nc --help
+  608  nc -z localhost 8080
+  609  clear
+  610  ls
+  611  man crontab
+  612   curl.sh/crontab
+  613   curl cheat.sh/crontab
+  614   curl cheat.sh/ls
+  615  clear
+  616  curl cheat.sh
+  617  clear
+  618  ls
+  619  clear
+  620  ls
+  621  clear
+  622  ls
+  623  nginx
+  624  clear
+  625  man nginx
+  626  cd /etc
+  627  ls
+  628  ls | grep "nginx"
+  629  cd nginx/
+  630  ls
+  631  cat conf.d
+  632  cd conf.d
+  633  ls
+  634  cd ..
+  635  cat ndinx.conf
+  636  cd nginx.conf
+  637  cat nginx.conf
+  638  clear
+  639  ls
+  640  cd /home/zhanibek/soos/go-app
+  641  ls
+  642  clear
+  643  find
+  644  find --help
+  645  man find
+  646  curl cheat.sh
+  647  clear
+  648  ls
+  649  clear
+  650  ls
+  651  clear
+  652  ls
+  653  cd ..
+  654  ls
+  655  cd ticket1/
+  656  ls
+  657  clear
+  658  ls
+  659  cat installAndTest.sh 
+  660  redis-cli --help
+  661  clear
+  662  ls
+  663  cat backup
+  664  cat backupPrepare.sh 
+  665  curl cheat.sh
+  666  clear
+  667  ls
+  668  clear
+  669  curl cheat.sh
+  670  curl cheat.sh/redis-cli
+  671  clear
+  672  history
+  673  clear
+  674  history > history.txt
+  675  cat history.txt 
+  676  clear
+  677  ls
+  678  vim history.txt
+  679  clear
+  680  ls
+  681  clear
+  682  systemctl status nginx
+  683  systemctl enable nginx 
+  684  systemctl start nginx 
+  685  systemctl enable nginx 
+  686  systemctl status nginx
+  687  clear
+  688  sudo su
+  689  exit
+  690  docker ps
+  691  docker stop go-app
+  692  clear
+  693  docker ps
+  694  exit
+  695  master
+  696  exit
+  697  localhost:8080
+  698  curl localhost:8080
+  699  cd /etc/nginx
+  700  ls
+  701  cd conf.d
+  702  ls
+  703  vim go-app.conf
+  704  ls
+  705  sudo vim go-app.con
+  706  clear
+  707  sudo vim go-app.conf
+  708  clear
+  709  ls
+  710  cd ..
+  711  ls
+  712  cat fastcgi
+  713  cat fastcgi.conf
+  714  clear
+  715  ls
+  716  cat default.d/
+  717  cd default.d/
+  718  ls
+  719  cd ..
+  720  cat nginx.conf
+  721  clear
+  722  ip a
+  723  grep -r "proxy_set_header" /etc/nginx/
+  724  sudo grep -r "proxy_set_header" /etc/nginx/
+  725  sudo grep -r "proxy_set_header" /
+  726  clear
+  727  ls
+  728  ip a
+  729  cd ..
+  730  cd httpd/
+  731  ls
+  732  cd ..
+  733  cd logrotate.d/
+  734  ls
+  735  cd nginx
+  736  ls
+  737  clear
+  738  ls
+  739  cat nginx
+  740  cat sssd
+  741  clear
+  742  ls
+  743  cat firewalld 
+  744  clear
+  745  cd ..
+  746  clear
+  747  cd /tmp
+  748  ls
+  749  clear
+  750  ls
+  751  cat snap-private-tmp/
+  752  sudo cat snap-private-tmp/
+  753  sudo ls snap-private-tmp/
+  754  ls
+  755  clear
+  756  mkdir test
+  757  ls
+  758  cd test
+  759  ls
+  760  clear
+  761  cd /home/zhanibek
+  762  ls
+  763  cd soos
+  764  cd ticket1/
+  765  ls'
+  766  exit
+  767  cler
+  768  clear
+  769  ls
+  770  cat installAndTest.sh 
+  771  clear
+  772  ls
+  773  clear
+  774  ls
+  775  cat my_crontab 
+  776  crontab list
+  777  crontab
+  778  crontab -l
+  779  crontab -e
+  780  curl cheat.sh/crontab
+  781  clear
+  782  man crontab
+  783  cd /etc/crontab
+  784  ls
+  785  cat /etc/crontab
+  786  crontab -e */2 * * * * zhanibek /home/zhanibek/soos/ticket1/valkeyBackup.sh
+  787  crontab -u zhanibek -e */2 * * * * /home/zhanibek/soos/ticket1/valkeyBackup.sh
+  788  sudo crontab -u zhanibek -e */2 * * * * /home/zhanibek/soos/ticket1/valkeyBackup.sh
+  789  sudo crontab -e */2 * * * * /home/zhanibek/soos/ticket1/valkeyBackup.sh
+  790  sudo crontab -e 1 * * * * /home/zhanibek/soos/ticket1/valkeyBackup.sh
+  791  crontab -e 1 * * * thu /home/zhanibek/soos/ticket1/valkeyBackup.sh
+  792  clear
+  793  curl cheat.sh/crontab
+  794  crontab -e -u zhanibek
+  795  sudo crontab -e -u zhanibek
+  796  ls
+  797  cat backupPrepare.sh 
+  798  ls
+  799  clear
+  800  ls
+  801  cat my_crontab 
+  802  clear
+  803  sudo crontab -e -u zhanibek
+  804  ls
+  805  clear
+  806  ls
+  807  cat valkeyBackup.sh 
+  808  tar --help
+  809  clear
+  810  ls
+  811  systemd
+  812  curl cheat.sh/systemd
+  813  curl cheat.sh/systemd-unit
+  814  cd /etc/systemd
+  815  ls
+  816  cd system
+  817  ls
+  818  lsmod 
+  819  lsmod | grep "kvm"
+  820  clear
+  821  ls
+  822  cat zhanibekservice.service 
+  823  cat deleteIntelKvm.service 
+  824  cat dbus.service 
+  825  clear
+  826  ls
+  827  curl cheat.sh/visudo
+  828  sudo visud
+  829  sudo visudo
+  830  clear
+  831  ls
+  832  clear
+  833  ls
+  834  cd /home/zhanibek/soos
+  835  ls
+  836  clear
+  837  ls
+  838  cat valkeyBackup.log 
+  839  clear
+  840  ls
+  841  cd ticket1/
+  842  ls
+  843  crontab -l
+  844  cat valkeyBackup.sh 
+  845  clear
+  846  ls
+  847  cd ..
+  848  ls
+  849  cat valkeyBackup.log 
+  850  clear
+  851  ls
+  852  cd go-app/
+  853  ls
+  854  cat main.go
+  855  clear
+  856  ls
+  857  curl cheat.sh/go
+  858  curl cheat.sh/go:learn
+  859  curl cheat.sh/go/:learn
+  860  clear
+  861  ls
+  862  cat testServer.sh 
+  863  ls
+  864  cd ..
+  865  ls
+  866  cd ticket1/
+  867  ls
+  868  cat valkeyBackup.sh 
+  869  date
+  870  man date
+  871  curl cheat.sh/ignorespace
+  872  curl cheat.sh/date
+  873  clear
+  874  ls
+  875  cd ..
+  876  l
+  877  ls
+  878  clear
+  879  ls
+  880  cd go-app/
+  881  ls
+  882  cat Dockerfile 
+  883  curl cheat.sh/shell
+  884  curl cheat.sh/sh
+  885  curl cheat.sh/bin
+  886  curl cheat.sh/shell
+  887  clear
+  888  ls
+  889  docker ps
+  890  podman ps
+  891  man podman
+  892  podman --help
+  893  clear
+  894  ls
+  895  sudo systemctl status nginx
+  896  clear
+  897  ls
+  898  server 
+  899  server
+  900  tmux
+  901  clear
+  902  curl cheat.sh/tmux
+  903  tmux
+  904  exit
+  905  ls
+  906  cd soos
+  907  ls
+  908  clear
+  909  ls
+  910  vim README.md
+  911  curl https://devhints.io/bash
+  912  clear
+  913  ls
+  914  cd ticket1/
+  915  ls
+  916  cat backup
+  917  cat backupPrepare.sh 
+  918  clear
+  919  ls
+  920  cat valkeyBackup.sh 
+  921  cat installAndTest.sh 
+  922  clear
+  923  cd ..
+  924  ls
+  925  cd go-app/
+  926  ls
+  927  curl cheat.sh/crontab
+  928  clear
+  929  history
+  930  history
+  931  history
+  932  history
+  933  history
+  934  history
+  935  history
+  936  clear
+  937  history
+  938  history
+  939  clear
+  940  clear
+  941  history
+  942  ls
+  943  cd soos
+  944  ls
+  945  clear
+  946  ls
+  947  vim README.md
+  948  curl https://devhints.io/bash
+  949  clear
+  950  ls
+  951  cd ticket1/
+  952  ls
+  953  cat backup
+  954  cat backupPrepare.sh 
+  955  clear
+  956  ls
+  957  cat valkeyBackup.sh 
+  958  cat installAndTest.sh 
+  959  clear
+  960  cd ..
+  961  ls
+  962  cd go-app/
+  963  ls
+  964  curl cheat.sh/crontab
+  965  clear
+  966  history
+  967  history
+  968  history
+  969  history
+  970  history
+  971  history
+  972  history
+  973  clear
+  974  history
+  975  history
+  976  clear
+  977  clear
+  978  history
+  979  clear
+  980  curl cheat.sh/nginx
+  981  man nginx
+  982  clear
+  983  ls
+  984  cd ..
+  985  ls
+  986  mkdir soos
+  987  cp README.md soos
+  988  ls
+  989  cd soos
+  990  ls
+  991  git init
+  992  git add README.md 
+  993  git commit -m "."
+  994  git branch -M main
+  995  git remote add origin git@github.com:zhanibek05/soos.git
+  996  git push -u origin main
+  997  clear
+  998  cd ..
+  999  cd ..
+ 1000  ubuntu_server.sh 
+ 1001  curl cheat.sh/docker
+ 1002  clear
+ 1003  history
+ 1004  history -d  1001
+ 1005  history
+ 1006  history -d 1001
+ 1007  history
+ 1008  clear
+ 1009  history
+ 1010  history >> history.txt
