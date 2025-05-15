@@ -89,7 +89,9 @@ simple example
 ```bash
 [Unit]
 Description=My Go App
+# DAG
 After=network.target
+Requires=network.target
 
 [Service]
 User=appuser
@@ -99,6 +101,15 @@ Restart=on-failure
 [Install]
 WantedBy=multi-user.target
 ```
+```bash
+#dug
+
+sudo systemctl daemon-reexec     # Reloads the systemd process itself
+sudo systemctl daemon-reload     # Reloads unit file definitions
+systemctl list-dependencies myapp.service
+
+```
+
 # Users
 
 ```bash
@@ -343,3 +354,21 @@ docker run -p 8080:8080 zhanibek05/myapp:latest
 docker push zhanibek05/myapp:latest
 
 ```
+
+
+
+## Postgresql
+#!/bin/bash
+
+# installAndTest.sh
+
+# Install packages
+sudo dnf install postgresql-server postgresql-contrib -y
+
+# Initialize DB and start service
+sudo postgresql-setup --initdb --unit postgresql
+sudo systemctl enable --now postgresql
+
+# Create user and database non-interactively
+sudo -u postgres psql -c "CREATE USER lenny WITH PASSWORD 'leonard';"
+sudo -u postgres psql -c "CREATE DATABASE my_project OWNER lenny;"
